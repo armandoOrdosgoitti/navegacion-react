@@ -1,0 +1,25 @@
+.menu{
+    border:1px solid white;
+    width: 90px;
+    height: 300px;
+    margin-left: 60px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    background: #656263;
+    perspective: 600px;
+}
+
+.menu ul{
+    margin:20px 50px 20px -20px;
+    transform: rotateY(30deg);
+}
+
+.list-menu{
+    margin-bottom: 30px;
+    list-style: none;
+    border-bottom: 1px solid white;
+    
+}

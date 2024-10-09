@@ -1,0 +1,11 @@
+.borderSombra{
+    border:1px solid white;
+    border-radius: 60px;
+    width: 95px;
+    height: 320px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 1;
+    perspective: 300px;
+    transform: rotateY(20deg);
+}
